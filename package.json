@@ -1,0 +1,33 @@
+{
+  "name": "tab-js",
+  "version": "1.0.0",
+  "description": "A tab plugin whith es6",
+  "main": "",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --mode development --config webpack.config.js",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "tab",
+    "tabJs",
+    "tab-js",
+    "vue-tab",
+    "react-tab",
+    "es6-tab",
+    "tabs"
+  ],
+  "author": "gina",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
