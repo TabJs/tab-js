@@ -1,6 +1,8 @@
 # tab-js
 A tab plugin whith es6
 
+在vue中的用法
+
 
 ## tabJs 的属性与方法说明
 
