@@ -36,5 +36,5 @@ li.active {
 	padding: 20px;
 }
 .content.active {
-	animation: m .6s;
+	animation: m .6s; 
 }
