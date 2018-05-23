@@ -2,7 +2,7 @@
   "name": "tab-js",
   "version": "1.0.0",
   "description": "A tab plugin whith es6",
-  "main": "",
+  "main": "src/tab.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --mode development --config webpack.config.js",
     "build": "webpack --mode production"
