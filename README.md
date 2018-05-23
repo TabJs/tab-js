@@ -14,7 +14,7 @@ addHandle | Function | 为tabs点击事件新增一个方法
 init | Function | tabJs 初始化
 
 ## tabJs实例
-[在vue中的用法](https://github.com/TabJs/tab-js/blob/master/src/vue/tabJs.vue)
+[在vue中的用法](https://github.com/TabJs/tab-js/blob/master/src/vue/)
 
 ```
 import tabjs from '~/plugins/tab.js'
