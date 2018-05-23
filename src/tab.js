@@ -96,7 +96,7 @@ export default class tabs{
       (this.contents.length == 0) && (console.error('contents未定义'));
       return this;
     }
-    (this.tabs.length == 0 || this.contents.length == 0) && (console.error('虽然tabs的长度和contents的长度不一致'));
+    (this.tabs.length == 0 || this.contents.length == 0) && (console.error('tabs的长度和contents的长度不一致'));
     this.initElements();
     let i = this.activedId;
     this.tabs[i].className+= ' ' + this.activedClass;
