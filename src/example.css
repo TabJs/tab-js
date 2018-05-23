@@ -1,40 +1,40 @@
-* {
-	padding: 0;
-	margin: 0;
-	list-style: none;
+*{
+  padding: 0;
+  margin: 0;
+  list - style: none;
 }
 ul {
-	display: flex;
-	padding: 20px;
-	border-bottom: 1px solid #ccc;
+  display: flex;
+  padding: 20 px;
+  border - bottom: 1 px solid# ccc;
 }
 li {
-	position: relative;
-	width: 100px;
-	text-align: center;
-	cursor: pointer;
+  position: relative;
+  width: 100 px;
+  text - align: center;
+  cursor: pointer;
 }
-ul > li:first-child:after {
-	position: absolute;
-	top: 0;
-	right: 0;
-	content: '|';
-	color: #ccc;
+ul > li: first - child: after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '|';
+  color: #ccc;
 }
 li.active {
-	color: red;
+  color: red;
 }
 @keyframes m {
-	from {
-		opacity: 0
-	}
-	to {
-		opacity: 1
-	}
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
 }
 .content {
-	padding: 20px;
+  padding: 20 px;
 }
 .content.active {
-	animation: m .6s; 
+  animation: m .6 s;
 }
