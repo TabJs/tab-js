@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A tab plugin whith es6",
   "main": "src/tab.js",
+  "git repository": "git@github.com:TabJs/tab-js.git",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --mode development --config webpack.config.js",
     "build": "webpack --mode production"
@@ -16,7 +17,7 @@
     "es6-tab",
     "tabs"
   ],
-  "author": "gina",
+  "author": "git@github.com:TabJs/tab-js.git",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
